@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "S.U.TI/1.0.0": {
+        "runtime": {
+          "S.U.TI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "S.U.TI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
