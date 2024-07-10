@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             label1 = new Label();
             txtCodigo = new TextBox();
             groupBox1 = new GroupBox();
@@ -35,31 +36,8 @@
             btnCadastrar = new Button();
             groupBox4 = new GroupBox();
             rtxtOBS = new RichTextBox();
-            lblData = new Label();
-            gbHardware = new GroupBox();
-            txtNumRegistro = new TextBox();
-            label28 = new Label();
-            label27 = new Label();
-            txtOff2 = new TextBox();
-            txtOff1 = new TextBox();
-            txtUsado = new TextBox();
-            txtStorage = new TextBox();
-            txtGPU = new TextBox();
-            txtRAM = new TextBox();
-            txtModBoard = new TextBox();
-            txtSocket = new TextBox();
-            txtCPU = new TextBox();
-            label26 = new Label();
-            label25 = new Label();
-            label21 = new Label();
-            lblModorBoard = new Label();
-            label23 = new Label();
-            label22 = new Label();
-            label20 = new Label();
-            label19 = new Label();
-            rbDesktop = new RadioButton();
-            rbNotebook = new RadioButton();
             gbSistema = new GroupBox();
+            btnolhar = new Button();
             label18 = new Label();
             txtAnyDesk = new TextBox();
             txtDominio = new TextBox();
@@ -88,14 +66,39 @@
             label7 = new Label();
             label6 = new Label();
             label5 = new Label();
+            lblData = new Label();
+            gbHardware = new GroupBox();
+            txtNumRegistro = new TextBox();
+            label28 = new Label();
+            lblOff2 = new Label();
+            txtOff2 = new TextBox();
+            txtOff1 = new TextBox();
+            txtUsado = new TextBox();
+            txtStorage = new TextBox();
+            txtGPU = new TextBox();
+            txtRAM = new TextBox();
+            txtModBoard = new TextBox();
+            txtSocket = new TextBox();
+            txtCPU = new TextBox();
+            lblOff1 = new Label();
+            label25 = new Label();
+            label21 = new Label();
+            lblModorBoard = new Label();
+            label23 = new Label();
+            label22 = new Label();
+            label20 = new Label();
+            label19 = new Label();
+            rbDesktop = new RadioButton();
+            rbNotebook = new RadioButton();
             txtMAC = new TextBox();
             label4 = new Label();
             txtNome = new TextBox();
-            label2 = new Label();
+            lblMac = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
             groupBox1.SuspendLayout();
             groupBox4.SuspendLayout();
-            gbHardware.SuspendLayout();
             gbSistema.SuspendLayout();
+            gbHardware.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -120,17 +123,17 @@
             groupBox1.Controls.Add(btnNovo);
             groupBox1.Controls.Add(btnCadastrar);
             groupBox1.Controls.Add(groupBox4);
+            groupBox1.Controls.Add(gbSistema);
             groupBox1.Controls.Add(lblData);
             groupBox1.Controls.Add(gbHardware);
-            groupBox1.Controls.Add(gbSistema);
             groupBox1.Controls.Add(txtMAC);
             groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(txtNome);
-            groupBox1.Controls.Add(label2);
+            groupBox1.Controls.Add(lblMac);
             groupBox1.Location = new Point(5, 35);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(696, 510);
-            groupBox1.TabIndex = 2;
+            groupBox1.TabIndex = 81;
             groupBox1.TabStop = false;
             groupBox1.Text = "Dados da Maquina:";
             // 
@@ -139,18 +142,20 @@
             btnNovo.Location = new Point(13, 454);
             btnNovo.Name = "btnNovo";
             btnNovo.Size = new Size(94, 44);
-            btnNovo.TabIndex = 8;
+            btnNovo.TabIndex = 31;
             btnNovo.Text = "&Novo";
             btnNovo.UseVisualStyleBackColor = true;
+            btnNovo.Click += btnNovo_Click;
             // 
             // btnCadastrar
             // 
             btnCadastrar.Location = new Point(583, 454);
             btnCadastrar.Name = "btnCadastrar";
             btnCadastrar.Size = new Size(94, 44);
-            btnCadastrar.TabIndex = 7;
+            btnCadastrar.TabIndex = 30;
             btnCadastrar.Text = "&Cadastrar";
             btnCadastrar.UseVisualStyleBackColor = true;
+            btnCadastrar.Click += btnCadastrar_Click;
             // 
             // groupBox4
             // 
@@ -158,7 +163,7 @@
             groupBox4.Location = new Point(7, 348);
             groupBox4.Name = "groupBox4";
             groupBox4.Size = new Size(676, 100);
-            groupBox4.TabIndex = 6;
+            groupBox4.TabIndex = 29;
             groupBox4.TabStop = false;
             groupBox4.Text = "OBSERVAÇÕES:";
             // 
@@ -167,233 +172,12 @@
             rtxtOBS.Location = new Point(6, 22);
             rtxtOBS.Name = "rtxtOBS";
             rtxtOBS.Size = new Size(664, 72);
-            rtxtOBS.TabIndex = 0;
+            rtxtOBS.TabIndex = 29;
             rtxtOBS.Text = "";
-            // 
-            // lblData
-            // 
-            lblData.AutoSize = true;
-            lblData.Location = new Point(572, 0);
-            lblData.Name = "lblData";
-            lblData.Size = new Size(43, 15);
-            lblData.TabIndex = 3;
-            lblData.Text = "(DATA)";
-            // 
-            // gbHardware
-            // 
-            gbHardware.Controls.Add(txtNumRegistro);
-            gbHardware.Controls.Add(label28);
-            gbHardware.Controls.Add(label27);
-            gbHardware.Controls.Add(txtOff2);
-            gbHardware.Controls.Add(txtOff1);
-            gbHardware.Controls.Add(txtUsado);
-            gbHardware.Controls.Add(txtStorage);
-            gbHardware.Controls.Add(txtGPU);
-            gbHardware.Controls.Add(txtRAM);
-            gbHardware.Controls.Add(txtModBoard);
-            gbHardware.Controls.Add(txtSocket);
-            gbHardware.Controls.Add(txtCPU);
-            gbHardware.Controls.Add(label26);
-            gbHardware.Controls.Add(label25);
-            gbHardware.Controls.Add(label21);
-            gbHardware.Controls.Add(lblModorBoard);
-            gbHardware.Controls.Add(label23);
-            gbHardware.Controls.Add(label22);
-            gbHardware.Controls.Add(label20);
-            gbHardware.Controls.Add(label19);
-            gbHardware.Controls.Add(rbDesktop);
-            gbHardware.Controls.Add(rbNotebook);
-            gbHardware.Location = new Point(348, 51);
-            gbHardware.Name = "gbHardware";
-            gbHardware.Size = new Size(335, 291);
-            gbHardware.TabIndex = 5;
-            gbHardware.TabStop = false;
-            gbHardware.Text = "Informações do Hardware:";
-            // 
-            // txtNumRegistro
-            // 
-            txtNumRegistro.Location = new Point(98, 215);
-            txtNumRegistro.Name = "txtNumRegistro";
-            txtNumRegistro.Size = new Size(231, 23);
-            txtNumRegistro.TabIndex = 21;
-            // 
-            // label28
-            // 
-            label28.AutoSize = true;
-            label28.Location = new Point(6, 218);
-            label28.Name = "label28";
-            label28.Size = new Size(86, 15);
-            label28.TabIndex = 20;
-            label28.Text = "N° de Registro:";
-            // 
-            // label27
-            // 
-            label27.AutoSize = true;
-            label27.Location = new Point(6, 179);
-            label27.Name = "label27";
-            label27.Size = new Size(67, 15);
-            label27.TabIndex = 19;
-            label27.Text = "Offboard 2:";
-            // 
-            // txtOff2
-            // 
-            txtOff2.Location = new Point(79, 174);
-            txtOff2.Name = "txtOff2";
-            txtOff2.Size = new Size(165, 23);
-            txtOff2.TabIndex = 18;
-            // 
-            // txtOff1
-            // 
-            txtOff1.Location = new Point(79, 144);
-            txtOff1.Name = "txtOff1";
-            txtOff1.Size = new Size(165, 23);
-            txtOff1.TabIndex = 17;
-            // 
-            // txtUsado
-            // 
-            txtUsado.Location = new Point(250, 115);
-            txtUsado.Name = "txtUsado";
-            txtUsado.Size = new Size(79, 23);
-            txtUsado.TabIndex = 16;
-            // 
-            // txtStorage
-            // 
-            txtStorage.Location = new Point(62, 115);
-            txtStorage.Name = "txtStorage";
-            txtStorage.Size = new Size(133, 23);
-            txtStorage.TabIndex = 15;
-            // 
-            // txtGPU
-            // 
-            txtGPU.Location = new Point(201, 86);
-            txtGPU.Name = "txtGPU";
-            txtGPU.Size = new Size(128, 23);
-            txtGPU.TabIndex = 14;
-            // 
-            // txtRAM
-            // 
-            txtRAM.Location = new Point(45, 86);
-            txtRAM.Name = "txtRAM";
-            txtRAM.Size = new Size(100, 23);
-            txtRAM.TabIndex = 13;
-            // 
-            // txtModBoard
-            // 
-            txtModBoard.Location = new Point(76, 54);
-            txtModBoard.Name = "txtModBoard";
-            txtModBoard.Size = new Size(253, 23);
-            txtModBoard.TabIndex = 12;
-            // 
-            // txtSocket
-            // 
-            txtSocket.Location = new Point(213, 22);
-            txtSocket.Name = "txtSocket";
-            txtSocket.Size = new Size(116, 23);
-            txtSocket.TabIndex = 11;
-            // 
-            // txtCPU
-            // 
-            txtCPU.Location = new Point(45, 22);
-            txtCPU.Name = "txtCPU";
-            txtCPU.Size = new Size(111, 23);
-            txtCPU.TabIndex = 10;
-            // 
-            // label26
-            // 
-            label26.AutoSize = true;
-            label26.Location = new Point(6, 147);
-            label26.Name = "label26";
-            label26.Size = new Size(67, 15);
-            label26.TabIndex = 9;
-            label26.Text = "Offboard 1:";
-            // 
-            // label25
-            // 
-            label25.AutoSize = true;
-            label25.Location = new Point(201, 118);
-            label25.Name = "label25";
-            label25.Size = new Size(43, 15);
-            label25.TabIndex = 8;
-            label25.Text = "Usado:";
-            // 
-            // label21
-            // 
-            label21.AutoSize = true;
-            label21.Location = new Point(162, 25);
-            label21.Name = "label21";
-            label21.Size = new Size(45, 15);
-            label21.TabIndex = 7;
-            label21.Text = "Socket:";
-            // 
-            // lblModorBoard
-            // 
-            lblModorBoard.AutoSize = true;
-            lblModorBoard.Location = new Point(6, 57);
-            lblModorBoard.Name = "lblModorBoard";
-            lblModorBoard.Size = new Size(64, 15);
-            lblModorBoard.TabIndex = 6;
-            lblModorBoard.Text = "Placa Mãe:";
-            // 
-            // label23
-            // 
-            label23.AutoSize = true;
-            label23.Location = new Point(6, 118);
-            label23.Name = "label23";
-            label23.Size = new Size(50, 15);
-            label23.TabIndex = 5;
-            label23.Text = "Storage:";
-            // 
-            // label22
-            // 
-            label22.AutoSize = true;
-            label22.Location = new Point(6, 92);
-            label22.Name = "label22";
-            label22.Size = new Size(36, 15);
-            label22.TabIndex = 4;
-            label22.Text = "RAM:";
-            // 
-            // label20
-            // 
-            label20.AutoSize = true;
-            label20.Location = new Point(162, 92);
-            label20.Name = "label20";
-            label20.Size = new Size(33, 15);
-            label20.TabIndex = 2;
-            label20.Text = "GPU:";
-            // 
-            // label19
-            // 
-            label19.AutoSize = true;
-            label19.Location = new Point(6, 25);
-            label19.Name = "label19";
-            label19.Size = new Size(33, 15);
-            label19.TabIndex = 0;
-            label19.Text = "CPU:";
-            // 
-            // rbDesktop
-            // 
-            rbDesktop.AutoSize = true;
-            rbDesktop.Location = new Point(161, 0);
-            rbDesktop.Name = "rbDesktop";
-            rbDesktop.Size = new Size(68, 19);
-            rbDesktop.TabIndex = 0;
-            rbDesktop.TabStop = true;
-            rbDesktop.Text = "Desktop";
-            rbDesktop.UseVisualStyleBackColor = true;
-            // 
-            // rbNotebook
-            // 
-            rbNotebook.AutoSize = true;
-            rbNotebook.Location = new Point(235, 0);
-            rbNotebook.Name = "rbNotebook";
-            rbNotebook.Size = new Size(78, 19);
-            rbNotebook.TabIndex = 1;
-            rbNotebook.TabStop = true;
-            rbNotebook.Text = "Notebook";
-            rbNotebook.UseVisualStyleBackColor = true;
             // 
             // gbSistema
             // 
+            gbSistema.Controls.Add(btnolhar);
             gbSistema.Controls.Add(label18);
             gbSistema.Controls.Add(txtAnyDesk);
             gbSistema.Controls.Add(txtDominio);
@@ -425,9 +209,20 @@
             gbSistema.Location = new Point(7, 51);
             gbSistema.Name = "gbSistema";
             gbSistema.Size = new Size(335, 291);
-            gbSistema.TabIndex = 4;
+            gbSistema.TabIndex = 2;
             gbSistema.TabStop = false;
             gbSistema.Text = "Informações do Sistema:";
+            // 
+            // btnolhar
+            // 
+            btnolhar.BackgroundImage = Properties.Resources.olhoafecha;
+            btnolhar.BackgroundImageLayout = ImageLayout.Stretch;
+            btnolhar.Location = new Point(301, 0);
+            btnolhar.Name = "btnolhar";
+            btnolhar.Size = new Size(26, 23);
+            btnolhar.TabIndex = 32;
+            btnolhar.UseVisualStyleBackColor = true;
+            btnolhar.Click += btnolhar_Click;
             // 
             // label18
             // 
@@ -443,28 +238,33 @@
             txtAnyDesk.Location = new Point(68, 231);
             txtAnyDesk.Name = "txtAnyDesk";
             txtAnyDesk.Size = new Size(141, 23);
-            txtAnyDesk.TabIndex = 26;
+            txtAnyDesk.TabIndex = 15;
+            txtAnyDesk.Tag = "";
             // 
             // txtDominio
             // 
             txtDominio.Location = new Point(68, 202);
             txtDominio.Name = "txtDominio";
             txtDominio.Size = new Size(259, 23);
-            txtDominio.TabIndex = 25;
+            txtDominio.TabIndex = 14;
+            txtDominio.Tag = "";
+            txtDominio.Leave += txtDominio_Leave;
             // 
             // txtPorta
             // 
             txtPorta.Location = new Point(270, 173);
             txtPorta.Name = "txtPorta";
             txtPorta.Size = new Size(57, 23);
-            txtPorta.TabIndex = 24;
+            txtPorta.TabIndex = 13;
+            txtPorta.Tag = "";
             // 
             // txtProxy
             // 
             txtProxy.Location = new Point(62, 173);
             txtProxy.Name = "txtProxy";
             txtProxy.Size = new Size(158, 23);
-            txtProxy.TabIndex = 23;
+            txtProxy.TabIndex = 12;
+            txtProxy.Tag = "";
             // 
             // mskDNS2
             // 
@@ -472,7 +272,7 @@
             mskDNS2.Mask = "000,000,000,000";
             mskDNS2.Name = "mskDNS2";
             mskDNS2.Size = new Size(82, 23);
-            mskDNS2.TabIndex = 22;
+            mskDNS2.TabIndex = 11;
             // 
             // mskDNS
             // 
@@ -480,7 +280,7 @@
             mskDNS.Mask = "000,000,000,000";
             mskDNS.Name = "mskDNS";
             mskDNS.Size = new Size(80, 23);
-            mskDNS.TabIndex = 21;
+            mskDNS.TabIndex = 10;
             // 
             // mskGateway
             // 
@@ -488,7 +288,7 @@
             mskGateway.Mask = "000,000,000,000";
             mskGateway.Name = "mskGateway";
             mskGateway.Size = new Size(82, 23);
-            mskGateway.TabIndex = 20;
+            mskGateway.TabIndex = 9;
             // 
             // mskMascara
             // 
@@ -496,7 +296,7 @@
             mskMascara.Mask = "000,000,000,000";
             mskMascara.Name = "mskMascara";
             mskMascara.Size = new Size(79, 23);
-            mskMascara.TabIndex = 19;
+            mskMascara.TabIndex = 8;
             // 
             // label17
             // 
@@ -513,44 +313,47 @@
             mskIP.Mask = "000,000,000,000";
             mskIP.Name = "mskIP";
             mskIP.Size = new Size(81, 23);
-            mskIP.TabIndex = 17;
+            mskIP.TabIndex = 7;
             // 
             // cbSO
             // 
             cbSO.FormattingEnabled = true;
+            cbSO.ItemHeight = 15;
             cbSO.Location = new Point(37, 86);
             cbSO.Name = "cbSO";
             cbSO.Size = new Size(126, 23);
-            cbSO.TabIndex = 16;
+            cbSO.TabIndex = 6;
             // 
             // cbSetor
             // 
             cbSetor.FormattingEnabled = true;
+            cbSetor.ItemHeight = 15;
             cbSetor.Location = new Point(212, 57);
             cbSetor.Name = "cbSetor";
             cbSetor.Size = new Size(115, 23);
-            cbSetor.TabIndex = 15;
+            cbSetor.TabIndex = 5;
             // 
             // txtUser
             // 
             txtUser.Location = new Point(56, 57);
             txtUser.Name = "txtUser";
             txtUser.Size = new Size(107, 23);
-            txtUser.TabIndex = 14;
+            txtUser.TabIndex = 4;
             // 
             // txtSenha
             // 
             txtSenha.Location = new Point(212, 28);
             txtSenha.Name = "txtSenha";
+            txtSenha.PasswordChar = '*';
             txtSenha.Size = new Size(115, 23);
-            txtSenha.TabIndex = 13;
+            txtSenha.TabIndex = 3;
             // 
             // txtLogin
             // 
             txtLogin.Location = new Point(48, 28);
             txtLogin.Name = "txtLogin";
             txtLogin.Size = new Size(115, 23);
-            txtLogin.TabIndex = 12;
+            txtLogin.TabIndex = 2;
             // 
             // label16
             // 
@@ -660,12 +463,239 @@
             label5.TabIndex = 0;
             label5.Text = "Login:";
             // 
+            // lblData
+            // 
+            lblData.AutoSize = true;
+            lblData.Location = new Point(572, 0);
+            lblData.Name = "lblData";
+            lblData.Size = new Size(43, 15);
+            lblData.TabIndex = 3;
+            lblData.Text = "(DATA)";
+            // 
+            // gbHardware
+            // 
+            gbHardware.Controls.Add(txtNumRegistro);
+            gbHardware.Controls.Add(label28);
+            gbHardware.Controls.Add(lblOff2);
+            gbHardware.Controls.Add(txtOff2);
+            gbHardware.Controls.Add(txtOff1);
+            gbHardware.Controls.Add(txtUsado);
+            gbHardware.Controls.Add(txtStorage);
+            gbHardware.Controls.Add(txtGPU);
+            gbHardware.Controls.Add(txtRAM);
+            gbHardware.Controls.Add(txtModBoard);
+            gbHardware.Controls.Add(txtSocket);
+            gbHardware.Controls.Add(txtCPU);
+            gbHardware.Controls.Add(lblOff1);
+            gbHardware.Controls.Add(label25);
+            gbHardware.Controls.Add(label21);
+            gbHardware.Controls.Add(lblModorBoard);
+            gbHardware.Controls.Add(label23);
+            gbHardware.Controls.Add(label22);
+            gbHardware.Controls.Add(label20);
+            gbHardware.Controls.Add(label19);
+            gbHardware.Controls.Add(rbDesktop);
+            gbHardware.Controls.Add(rbNotebook);
+            gbHardware.Location = new Point(348, 51);
+            gbHardware.Name = "gbHardware";
+            gbHardware.Size = new Size(335, 291);
+            gbHardware.TabIndex = 17;
+            gbHardware.TabStop = false;
+            gbHardware.Text = "Informações do Hardware:";
+            // 
+            // txtNumRegistro
+            // 
+            txtNumRegistro.Location = new Point(98, 215);
+            txtNumRegistro.Name = "txtNumRegistro";
+            txtNumRegistro.Size = new Size(231, 23);
+            txtNumRegistro.TabIndex = 28;
+            // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.Location = new Point(6, 218);
+            label28.Name = "label28";
+            label28.Size = new Size(86, 15);
+            label28.TabIndex = 20;
+            label28.Text = "N° de Registro:";
+            // 
+            // lblOff2
+            // 
+            lblOff2.AutoSize = true;
+            lblOff2.Location = new Point(6, 179);
+            lblOff2.Name = "lblOff2";
+            lblOff2.Size = new Size(67, 15);
+            lblOff2.TabIndex = 19;
+            lblOff2.Text = "Offboard 2:";
+            // 
+            // txtOff2
+            // 
+            txtOff2.Location = new Point(79, 174);
+            txtOff2.Name = "txtOff2";
+            txtOff2.Size = new Size(165, 23);
+            txtOff2.TabIndex = 27;
+            // 
+            // txtOff1
+            // 
+            txtOff1.Location = new Point(79, 144);
+            txtOff1.Name = "txtOff1";
+            txtOff1.Size = new Size(165, 23);
+            txtOff1.TabIndex = 26;
+            // 
+            // txtUsado
+            // 
+            txtUsado.Location = new Point(250, 115);
+            txtUsado.Name = "txtUsado";
+            txtUsado.Size = new Size(79, 23);
+            txtUsado.TabIndex = 25;
+            // 
+            // txtStorage
+            // 
+            txtStorage.Location = new Point(62, 115);
+            txtStorage.Name = "txtStorage";
+            txtStorage.PlaceholderText = "XGB HD or SSD";
+            txtStorage.Size = new Size(133, 23);
+            txtStorage.TabIndex = 24;
+            // 
+            // txtGPU
+            // 
+            txtGPU.Location = new Point(201, 86);
+            txtGPU.Name = "txtGPU";
+            txtGPU.Size = new Size(128, 23);
+            txtGPU.TabIndex = 23;
+            // 
+            // txtRAM
+            // 
+            txtRAM.Location = new Point(45, 86);
+            txtRAM.Name = "txtRAM";
+            txtRAM.PlaceholderText = "XGB DDRX XMhz Duo";
+            txtRAM.Size = new Size(111, 23);
+            txtRAM.TabIndex = 22;
+            // 
+            // txtModBoard
+            // 
+            txtModBoard.Location = new Point(76, 54);
+            txtModBoard.Name = "txtModBoard";
+            txtModBoard.Size = new Size(253, 23);
+            txtModBoard.TabIndex = 21;
+            // 
+            // txtSocket
+            // 
+            txtSocket.Location = new Point(213, 22);
+            txtSocket.Name = "txtSocket";
+            txtSocket.PlaceholderText = "LGAXXX";
+            txtSocket.Size = new Size(116, 23);
+            txtSocket.TabIndex = 20;
+            // 
+            // txtCPU
+            // 
+            txtCPU.Location = new Point(45, 22);
+            txtCPU.Name = "txtCPU";
+            txtCPU.Size = new Size(111, 23);
+            txtCPU.TabIndex = 19;
+            // 
+            // lblOff1
+            // 
+            lblOff1.AutoSize = true;
+            lblOff1.Location = new Point(6, 147);
+            lblOff1.Name = "lblOff1";
+            lblOff1.Size = new Size(67, 15);
+            lblOff1.TabIndex = 9;
+            lblOff1.Text = "Offboard 1:";
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Location = new Point(201, 118);
+            label25.Name = "label25";
+            label25.Size = new Size(43, 15);
+            label25.TabIndex = 8;
+            label25.Text = "Usado:";
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Location = new Point(162, 25);
+            label21.Name = "label21";
+            label21.Size = new Size(45, 15);
+            label21.TabIndex = 7;
+            label21.Text = "Socket:";
+            // 
+            // lblModorBoard
+            // 
+            lblModorBoard.AutoSize = true;
+            lblModorBoard.Location = new Point(6, 57);
+            lblModorBoard.Name = "lblModorBoard";
+            lblModorBoard.Size = new Size(64, 15);
+            lblModorBoard.TabIndex = 6;
+            lblModorBoard.Text = "Placa Mãe:";
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Location = new Point(6, 118);
+            label23.Name = "label23";
+            label23.Size = new Size(39, 15);
+            label23.TabIndex = 5;
+            label23.Text = "Disco:";
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Location = new Point(6, 92);
+            label22.Name = "label22";
+            label22.Size = new Size(36, 15);
+            label22.TabIndex = 4;
+            label22.Text = "RAM:";
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Location = new Point(162, 92);
+            label20.Name = "label20";
+            label20.Size = new Size(33, 15);
+            label20.TabIndex = 2;
+            label20.Text = "GPU:";
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(6, 25);
+            label19.Name = "label19";
+            label19.Size = new Size(33, 15);
+            label19.TabIndex = 0;
+            label19.Text = "CPU:";
+            // 
+            // rbDesktop
+            // 
+            rbDesktop.AutoSize = true;
+            rbDesktop.Location = new Point(161, 0);
+            rbDesktop.Name = "rbDesktop";
+            rbDesktop.Size = new Size(68, 19);
+            rbDesktop.TabIndex = 17;
+            rbDesktop.TabStop = true;
+            rbDesktop.Text = "Desktop";
+            rbDesktop.UseVisualStyleBackColor = true;
+            rbDesktop.CheckedChanged += rbDesktop_CheckedChanged;
+            // 
+            // rbNotebook
+            // 
+            rbNotebook.AutoSize = true;
+            rbNotebook.Location = new Point(235, 0);
+            rbNotebook.Name = "rbNotebook";
+            rbNotebook.Size = new Size(78, 19);
+            rbNotebook.TabIndex = 18;
+            rbNotebook.TabStop = true;
+            rbNotebook.Text = "Notebook";
+            rbNotebook.UseVisualStyleBackColor = true;
+            rbNotebook.CheckedChanged += rbNotebook_CheckedChanged;
+            // 
             // txtMAC
             // 
             txtMAC.Location = new Point(408, 22);
             txtMAC.Name = "txtMAC";
             txtMAC.Size = new Size(158, 23);
-            txtMAC.TabIndex = 3;
+            txtMAC.TabIndex = 16;
             // 
             // label4
             // 
@@ -683,14 +713,18 @@
             txtNome.Size = new Size(158, 23);
             txtNome.TabIndex = 1;
             // 
-            // label2
+            // lblMac
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(348, 25);
-            label2.Name = "label2";
-            label2.Size = new Size(60, 15);
-            label2.TabIndex = 0;
-            label2.Text = "End MAC:";
+            lblMac.AutoSize = true;
+            lblMac.Location = new Point(348, 25);
+            lblMac.Name = "lblMac";
+            lblMac.Size = new Size(60, 15);
+            lblMac.TabIndex = 0;
+            lblMac.Text = "End MAC:";
+            // 
+            // timer1
+            // 
+            timer1.Tick += timer1_Tick;
             // 
             // FrmComputador
             // 
@@ -702,13 +736,14 @@
             Controls.Add(label1);
             Name = "FrmComputador";
             Text = "FrmCadastro_Computador";
+            Load += FrmComputador_Load;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             groupBox4.ResumeLayout(false);
-            gbHardware.ResumeLayout(false);
-            gbHardware.PerformLayout();
             gbSistema.ResumeLayout(false);
             gbSistema.PerformLayout();
+            gbHardware.ResumeLayout(false);
+            gbHardware.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -719,7 +754,7 @@
         private TextBox txtCodigo;
         private GroupBox groupBox1;
         private TextBox txtNome;
-        private Label label2;
+        private Label lblMac;
         private RadioButton rbDesktop;
         private RadioButton rbNotebook;
         private Label label4;
@@ -766,9 +801,9 @@
         private TextBox txtModBoard;
         private TextBox txtSocket;
         private TextBox txtCPU;
-        private Label label26;
+        private Label lblOff1;
         private Label label25;
-        private Label label27;
+        private Label lblOff2;
         private TextBox txtOff2;
         private TextBox txtOff1;
         private TextBox txtUsado;
@@ -779,5 +814,7 @@
         private RichTextBox rtxtOBS;
         private Button btnCadastrar;
         private Button btnNovo;
+        private System.Windows.Forms.Timer timer1;
+        private Button btnolhar;
     }
 }

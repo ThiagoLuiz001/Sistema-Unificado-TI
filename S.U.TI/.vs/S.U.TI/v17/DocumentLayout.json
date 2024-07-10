@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\frmtela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\frmtela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\modulos\\conexaobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\modulos\\conexaobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\mapeamento\\computadores\\classcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\mapeamento\\computadores\\classcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\s.u.ti\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\s.u.ti\\formularios\\frmtela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\frmtela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\frmtela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\frmtela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\s.u.ti.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -29,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,31 +66,92 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "FrmComputador.cs [Projeto]",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs [Projeto]",
+              "RelativeToolTip": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T12:15:18.065Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmComputador.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
+              "RelativeToolTip": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAADgv0QAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T16:56:49.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ClassComputador.cs",
               "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\ClassComputador.cs",
               "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\ClassComputador.cs",
               "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\ClassComputador.cs",
               "RelativeToolTip": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\ClassComputador.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCgAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T02:57:57.264Z"
+              "WhenOpened": "2024-07-05T02:57:57.264Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ConexaoBanco.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Modulos\\ConexaoBanco.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Modulos\\ConexaoBanco.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Modulos\\ConexaoBanco.cs",
+              "RelativeToolTip": "S.U.TI\\Modulos\\ConexaoBanco.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAADgvysAAAC8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T12:31:50.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmComputador.resx",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.resx",
+              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.resx",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.resx",
+              "RelativeToolTip": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-07-09T12:12:50.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "S.U.TI\\Properties\\Resources.resx",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Properties\\Resources.resx",
+              "RelativeToolTip": "S.U.TI\\Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-07-09T12:11:17.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "FrmTela_Principal.cs [Projeto]",
               "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\FrmTela_Principal.cs",
               "RelativeDocumentMoniker": "S.U.TI\\Formularios\\FrmTela_Principal.cs",
               "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\FrmTela_Principal.cs [Projeto]",
               "RelativeToolTip": "S.U.TI\\Formularios\\FrmTela_Principal.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T13:18:31.271Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2024-07-04T13:18:31.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "FrmTela_Principal.cs",
               "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\FrmTela_Principal.cs",
               "RelativeDocumentMoniker": "S.U.TI\\Formularios\\FrmTela_Principal.cs",
@@ -94,30 +163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmComputador.Designer.cs",
-              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.Designer.cs",
-              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.Designer.cs",
-              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.Designer.cs",
-              "RelativeToolTip": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.Designer.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAI8AAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T02:23:49.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmComputador.cs [Projeto]",
-              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
-              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
-              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs [Projeto]",
-              "RelativeToolTip": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T16:17:50.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "S.U.TI.csproj",
               "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\S.U.TI.csproj",
               "RelativeDocumentMoniker": "S.U.TI\\S.U.TI.csproj",
@@ -129,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Program.cs",
               "RelativeDocumentMoniker": "S.U.TI\\Program.cs",
@@ -138,18 +184,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-05T02:42:11.907Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FrmComputador.cs",
-              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
-              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
-              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
-              "RelativeToolTip": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T16:56:49.998Z"
             }
           ]
         }
