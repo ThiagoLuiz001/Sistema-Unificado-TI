@@ -112,10 +112,11 @@
             // 
             // txtCodigo
             // 
+            txtCodigo.Enabled = false;
+            txtCodigo.Font = new Font("Segoe UI", 11.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             txtCodigo.Location = new Point(67, 6);
             txtCodigo.Name = "txtCodigo";
-            txtCodigo.ReadOnly = true;
-            txtCodigo.Size = new Size(93, 23);
+            txtCodigo.Size = new Size(93, 27);
             txtCodigo.TabIndex = 1;
             // 
             // groupBox1

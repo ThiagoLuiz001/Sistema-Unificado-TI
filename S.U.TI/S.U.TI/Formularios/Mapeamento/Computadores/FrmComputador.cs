@@ -24,8 +24,8 @@ namespace S.U.TI.Formularios.Mapeamento.Computadores
         private void CadastrarDados()
         {
             string maquina;
-            string[] ram = new string[4];
-            string[] hd = new string[2];
+            string[] ram = new string[4] {"N/A", "N/A", "N/A", "N/A"};
+            string[] hd = new string[2] {"N/A", "N/A"};
             ClassComputador dados = new ClassComputador();
             hd = txtStorage.Text.Split(' ');
             ram= txtRAM.Text.Split(' ');

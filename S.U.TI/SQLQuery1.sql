@@ -38,8 +38,14 @@ Used nvarchar(6),
 Offboard1 nvarchar (30),
 Offboard2 nvarchar (30),
 Registry nvarchar (50),
-Obsertvation nvarchar(MAX),
+Observation nvarchar(MAX),
 [Date] nvarchar(30),
 Active bit
 )
 
+
+INSERT INTO PCMAPPING([Name], [Login], [Password], [User], Sector, [System], [IP], Mask, Gateway, DNS, DNS2, Proxy, [Port], Domain, AnyDesk, MAC, [Platform] , CPU, Socket, Motherboard, Memory, DDR, Frequency, Slots, GPU, [Disk] , TypeDisk, Used, Offboard1, Offboard2, Registry, Observation, [Date], Active)
+VALUES('tes', 'tes', 'tes', 'tes', 'tes' , 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 1)
+
+
+Select * from PCMAPPING
