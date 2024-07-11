@@ -1,0 +1,11 @@
+# Ignorar pasta do Visual Studio
+.vs/
+
+# Ignorar outros arquivos temporários ou desnecessários
+*.log
+*.tmp
+*.swp
+
+# Ignorar pastas bin e obj (geralmente usadas para compilação)
+bin/
+obj/

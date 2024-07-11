@@ -2234,23 +2234,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Thiago\\.nuget\\packages\\": {},
+    "C:\\Users\\Estagiario\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Aplicações com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\S.U.TI.csproj",
+      "projectUniqueName": "C:\\Users\\Estagiario\\Source\\Repos\\Sistema-Unificado-TI\\S.U.TI\\S.U.TI\\S.U.TI.csproj",
       "projectName": "S.U.TI",
-      "projectPath": "C:\\Aplicações com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\S.U.TI.csproj",
-      "packagesPath": "C:\\Users\\Thiago\\.nuget\\packages\\",
-      "outputPath": "C:\\Aplicações com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\obj\\",
+      "projectPath": "C:\\Users\\Estagiario\\Source\\Repos\\Sistema-Unificado-TI\\S.U.TI\\S.U.TI\\S.U.TI.csproj",
+      "packagesPath": "C:\\Users\\Estagiario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Estagiario\\Source\\Repos\\Sistema-Unificado-TI\\S.U.TI\\S.U.TI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Thiago\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Estagiario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2319,7 +2319,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

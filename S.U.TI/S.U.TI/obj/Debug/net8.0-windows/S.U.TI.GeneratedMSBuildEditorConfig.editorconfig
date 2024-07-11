@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = S.U.TI
-build_property.ProjectDir = C:\Aplicações com C#\Sistema Unificado de TI\S.U.TI\S.U.TI\
+build_property.ProjectDir = C:\Users\Estagiario\source\repos\Sistema-Unificado-TI\S.U.TI\S.U.TI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
