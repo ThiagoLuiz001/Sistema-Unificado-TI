@@ -3,40 +3,100 @@
   "WorkspaceRootPath": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\operacional\\empresas\\frmempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\operacional\\empresas\\frmempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\operacional\\empresas\\frmempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\operacional\\empresas\\frmempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\operacional\\setores\\frmsetor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\operacional\\setores\\frmsetor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\s.u.ti\\formularios\\frmtela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\frmtela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\modulos\\conexaobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\modulos\\conexaobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\frmtela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\frmtela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\model\\hardware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\model\\hardware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\dao\\computerinfodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\dao\\computerinfodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\model\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\model\\computermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\model\\computermapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\mapeamento\\computadores\\classcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\mapeamento\\computadores\\classcomputador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\model\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\model\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\dao\\companydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\dao\\companydao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\modulos\\conexaobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\modulos\\conexaobanco.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\modulos\\conexaoempresas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\modulos\\conexaoempresas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\s.u.ti.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\s.u.ti.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\modulos\\conexaomapapc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\modulos\\conexaomapapc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\dao\\departmentdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\dao\\departmentdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\dao\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\dao\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\operacional\\sistemas\\frmsistemaoperacional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\operacional\\sistemas\\frmsistemaoperacional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\s.u.ti\\formularios\\operacional\\empresas\\frmempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\operacional\\empresas\\frmempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\s.u.ti\\formularios\\frmtela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\frmtela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\operacional\\empresas\\frmempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\operacional\\empresas\\frmempresa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\frmtela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\frmtela_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\operacional\\setores\\frmsetor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\operacional\\setores\\frmsetor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\s.u.ti\\formularios\\operacional\\setores\\frmsetor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\operacional\\setores\\frmsetor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\formularios\\operacional\\empresas\\classempresas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\formularios\\operacional\\empresas\\classempresas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\s.u.ti\\formularios\\mapeamento\\computadores\\frmcomputador.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
@@ -45,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\s.u.ti\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
       "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\s.u.ti.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|solutionrelative:s.u.ti\\s.u.ti.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F743873-AD1F-4E78-9873-C93E8F7C0950}|S.U.TI\\S.U.TI.csproj|c:\\aplica\u00E7\u00F5es com c#\\sistema unificado de ti\\s.u.ti\\s.u.ti\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -62,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,44 +134,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FrmEmpresa.cs",
-              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Empresas\\FrmEmpresa.cs",
-              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Operacional\\Empresas\\FrmEmpresa.cs",
-              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Empresas\\FrmEmpresa.cs",
-              "RelativeToolTip": "S.U.TI\\Formularios\\Operacional\\Empresas\\FrmEmpresa.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAUwBIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T12:45:55.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FrmEmpresa.cs [Projeto]",
-              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Empresas\\FrmEmpresa.cs",
-              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Operacional\\Empresas\\FrmEmpresa.cs",
-              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Empresas\\FrmEmpresa.cs [Projeto]",
-              "RelativeToolTip": "S.U.TI\\Formularios\\Operacional\\Empresas\\FrmEmpresa.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T12:33:47.709Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmSetor.cs [Projeto]",
-              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Setores\\FrmSetor.cs",
-              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Operacional\\Setores\\FrmSetor.cs",
-              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Setores\\FrmSetor.cs [Projeto]",
-              "RelativeToolTip": "S.U.TI\\Formularios\\Operacional\\Setores\\FrmSetor.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T11:58:55.206Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "FrmComputador.cs [Projeto]",
               "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
               "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
@@ -127,70 +146,295 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ConexaoBanco.cs",
-              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Modulos\\ConexaoBanco.cs",
-              "RelativeDocumentMoniker": "S.U.TI\\Modulos\\ConexaoBanco.cs",
-              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Modulos\\ConexaoBanco.cs",
-              "RelativeToolTip": "S.U.TI\\Modulos\\ConexaoBanco.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAADgvysAAAC8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T12:31:50.896Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FrmTela_Principal.cs [Projeto]",
-              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\FrmTela_Principal.cs",
-              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\FrmTela_Principal.cs",
-              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\FrmTela_Principal.cs [Projeto]",
-              "RelativeToolTip": "S.U.TI\\Formularios\\FrmTela_Principal.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T13:18:31.271Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FrmTela_Principal.cs",
-              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\FrmTela_Principal.cs",
-              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\FrmTela_Principal.cs",
-              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\FrmTela_Principal.cs",
-              "RelativeToolTip": "S.U.TI\\Formularios\\FrmTela_Principal.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAUwBEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T02:43:34.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ClassComputador.cs",
-              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\ClassComputador.cs",
-              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\ClassComputador.cs",
-              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\ClassComputador.cs",
-              "RelativeToolTip": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\ClassComputador.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCgAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T02:57:57.264Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "FrmComputador.cs",
               "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
               "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
               "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
               "RelativeToolTip": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAADgvx4AAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-04T16:56:49.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComputerInfoDAO.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\DAO\\ComputerInfoDAO.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\DAO\\ComputerInfoDAO.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\DAO\\ComputerInfoDAO.cs",
+              "RelativeToolTip": "S.U.TI\\DAO\\ComputerInfoDAO.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T12:33:40.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hardware.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Model\\Hardware.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Model\\Hardware.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Model\\Hardware.cs",
+              "RelativeToolTip": "S.U.TI\\Model\\Hardware.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T16:19:01.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Model\\Department.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Model\\Department.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Model\\Department.cs",
+              "RelativeToolTip": "S.U.TI\\Model\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T16:18:57.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmComputador.Designer.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.Designer.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.Designer.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.Designer.cs",
+              "RelativeToolTip": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.Designer.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T16:18:39.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComputerMapping.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Model\\ComputerMapping.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Model\\ComputerMapping.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Model\\ComputerMapping.cs",
+              "RelativeToolTip": "S.U.TI\\Model\\ComputerMapping.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T13:58:41.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Company.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Model\\Company.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Model\\Company.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Model\\Company.cs",
+              "RelativeToolTip": "S.U.TI\\Model\\Company.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T13:58:22.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClassComputador.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\ClassComputador.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\ClassComputador.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\ClassComputador.cs",
+              "RelativeToolTip": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\ClassComputador.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:57:57.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "CompanyDAO.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\DAO\\CompanyDAO.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\DAO\\CompanyDAO.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\DAO\\CompanyDAO.cs",
+              "RelativeToolTip": "S.U.TI\\DAO\\CompanyDAO.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T12:32:19.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "S.U.TI.csproj",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\S.U.TI.csproj",
+              "RelativeDocumentMoniker": "S.U.TI\\S.U.TI.csproj",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\S.U.TI.csproj",
+              "RelativeToolTip": "S.U.TI\\S.U.TI.csproj",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-05T02:48:22.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConexaoEmpresas.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Modulos\\ConexaoEmpresas.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Modulos\\ConexaoEmpresas.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Modulos\\ConexaoEmpresas.cs",
+              "RelativeToolTip": "S.U.TI\\Modulos\\ConexaoEmpresas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T10:47:48.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ConexaoBanco.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Modulos\\ConexaoBanco.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Modulos\\ConexaoBanco.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Modulos\\ConexaoBanco.cs",
+              "RelativeToolTip": "S.U.TI\\Modulos\\ConexaoBanco.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAowBsAAAB4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T12:31:50.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ConexaoMapaPc.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Modulos\\ConexaoMapaPc.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Modulos\\ConexaoMapaPc.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Modulos\\ConexaoMapaPc.cs",
+              "RelativeToolTip": "S.U.TI\\Modulos\\ConexaoMapaPc.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T10:35:05.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DepartmentDAO.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\DAO\\DepartmentDAO.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\DAO\\DepartmentDAO.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\DAO\\DepartmentDAO.cs",
+              "RelativeToolTip": "S.U.TI\\DAO\\DepartmentDAO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T12:33:54.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\DAO\\Connection.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\DAO\\Connection.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\DAO\\Connection.cs",
+              "RelativeToolTip": "S.U.TI\\DAO\\Connection.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T12:33:46.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FrmSistemaOperacional.cs [Projeto]",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Sistemas\\FrmSistemaOperacional.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Operacional\\Sistemas\\FrmSistemaOperacional.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Sistemas\\FrmSistemaOperacional.cs [Projeto]",
+              "RelativeToolTip": "S.U.TI\\Formularios\\Operacional\\Sistemas\\FrmSistemaOperacional.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T11:20:13.633Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FrmEmpresa.cs [Projeto]",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Empresas\\FrmEmpresa.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Operacional\\Empresas\\FrmEmpresa.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Empresas\\FrmEmpresa.cs [Projeto]",
+              "RelativeToolTip": "S.U.TI\\Formularios\\Operacional\\Empresas\\FrmEmpresa.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T12:33:47.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FrmTela_Principal.cs [Projeto]",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\FrmTela_Principal.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\FrmTela_Principal.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\FrmTela_Principal.cs [Projeto]",
+              "RelativeToolTip": "S.U.TI\\Formularios\\FrmTela_Principal.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T13:18:31.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FrmEmpresa.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Empresas\\FrmEmpresa.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Operacional\\Empresas\\FrmEmpresa.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Empresas\\FrmEmpresa.cs",
+              "RelativeToolTip": "S.U.TI\\Formularios\\Operacional\\Empresas\\FrmEmpresa.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T12:45:55.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FrmTela_Principal.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\FrmTela_Principal.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\FrmTela_Principal.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\FrmTela_Principal.cs",
+              "RelativeToolTip": "S.U.TI\\Formularios\\FrmTela_Principal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T02:43:34.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FrmSetor.cs [Projeto]",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Setores\\FrmSetor.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Operacional\\Setores\\FrmSetor.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Setores\\FrmSetor.cs [Projeto]",
+              "RelativeToolTip": "S.U.TI\\Formularios\\Operacional\\Setores\\FrmSetor.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T11:58:55.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FrmSetor.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Setores\\FrmSetor.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Operacional\\Setores\\FrmSetor.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Setores\\FrmSetor.cs",
+              "RelativeToolTip": "S.U.TI\\Formularios\\Operacional\\Setores\\FrmSetor.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T10:18:59.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ClassEmpresas.cs",
+              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Empresas\\ClassEmpresas.cs",
+              "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Operacional\\Empresas\\ClassEmpresas.cs",
+              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Operacional\\Empresas\\ClassEmpresas.cs",
+              "RelativeToolTip": "S.U.TI\\Formularios\\Operacional\\Empresas\\ClassEmpresas.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T14:05:41.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "FrmComputador.resx",
               "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.resx",
               "RelativeDocumentMoniker": "S.U.TI\\Formularios\\Mapeamento\\Computadores\\FrmComputador.resx",
@@ -202,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 25,
               "Title": "Resources.resx",
               "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Properties\\Resources.resx",
               "RelativeDocumentMoniker": "S.U.TI\\Properties\\Resources.resx",
@@ -213,19 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "S.U.TI.csproj",
-              "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\S.U.TI.csproj",
-              "RelativeDocumentMoniker": "S.U.TI\\S.U.TI.csproj",
-              "ToolTip": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\S.U.TI.csproj",
-              "RelativeToolTip": "S.U.TI\\S.U.TI.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-05T02:48:22.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 26,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Aplica\u00E7\u00F5es com C#\\Sistema Unificado de TI\\S.U.TI\\S.U.TI\\Program.cs",
               "RelativeDocumentMoniker": "S.U.TI\\Program.cs",

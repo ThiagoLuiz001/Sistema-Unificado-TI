@@ -91,7 +91,7 @@
             rbDesktop = new RadioButton();
             rbNotebook = new RadioButton();
             txtMAC = new TextBox();
-            label4 = new Label();
+            lblNome = new Label();
             txtNome = new TextBox();
             lblMac = new Label();
             timer1 = new System.Windows.Forms.Timer(components);
@@ -128,7 +128,7 @@
             groupBox1.Controls.Add(lblData);
             groupBox1.Controls.Add(gbHardware);
             groupBox1.Controls.Add(txtMAC);
-            groupBox1.Controls.Add(label4);
+            groupBox1.Controls.Add(lblNome);
             groupBox1.Controls.Add(txtNome);
             groupBox1.Controls.Add(lblMac);
             groupBox1.Location = new Point(5, 35);
@@ -207,7 +207,7 @@
             gbSistema.Controls.Add(label7);
             gbSistema.Controls.Add(label6);
             gbSistema.Controls.Add(label5);
-            gbSistema.Location = new Point(7, 51);
+            gbSistema.Location = new Point(347, 51);
             gbSistema.Name = "gbSistema";
             gbSistema.Size = new Size(335, 291);
             gbSistema.TabIndex = 2;
@@ -249,7 +249,6 @@
             txtDominio.Size = new Size(259, 23);
             txtDominio.TabIndex = 14;
             txtDominio.Tag = "";
-            txtDominio.Leave += txtDominio_Leave;
             // 
             // txtPorta
             // 
@@ -497,7 +496,7 @@
             gbHardware.Controls.Add(label19);
             gbHardware.Controls.Add(rbDesktop);
             gbHardware.Controls.Add(rbNotebook);
-            gbHardware.Location = new Point(348, 51);
+            gbHardware.Location = new Point(6, 51);
             gbHardware.Name = "gbHardware";
             gbHardware.Size = new Size(335, 291);
             gbHardware.TabIndex = 17;
@@ -693,23 +692,23 @@
             // 
             // txtMAC
             // 
-            txtMAC.Location = new Point(408, 22);
+            txtMAC.Location = new Point(77, 22);
             txtMAC.Name = "txtMAC";
             txtMAC.Size = new Size(158, 23);
             txtMAC.TabIndex = 16;
             // 
-            // label4
+            // lblNome
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(13, 25);
-            label4.Name = "label4";
-            label4.Size = new Size(43, 15);
-            label4.TabIndex = 2;
-            label4.Text = "Nome:";
+            lblNome.AutoSize = true;
+            lblNome.Location = new Point(347, 25);
+            lblNome.Name = "lblNome";
+            lblNome.Size = new Size(43, 15);
+            lblNome.TabIndex = 2;
+            lblNome.Text = "Nome:";
             // 
             // txtNome
             // 
-            txtNome.Location = new Point(62, 22);
+            txtNome.Location = new Point(395, 22);
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(158, 23);
             txtNome.TabIndex = 1;
@@ -717,7 +716,7 @@
             // lblMac
             // 
             lblMac.AutoSize = true;
-            lblMac.Location = new Point(348, 25);
+            lblMac.Location = new Point(11, 25);
             lblMac.Name = "lblMac";
             lblMac.Size = new Size(60, 15);
             lblMac.TabIndex = 0;
@@ -758,7 +757,7 @@
         private Label lblMac;
         private RadioButton rbDesktop;
         private RadioButton rbNotebook;
-        private Label label4;
+        private Label lblNome;
         private Label lblData;
         private GroupBox gbHardware;
         private GroupBox gbSistema;

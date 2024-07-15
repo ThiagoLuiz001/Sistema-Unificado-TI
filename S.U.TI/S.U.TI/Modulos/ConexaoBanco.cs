@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 using Microsoft.Data.SqlClient;
 using Newtonsoft.Json;
 using S.U.TI.Formularios.Mapeamento.Computadores;
+using S.U.TI.Formularios.Operacional.Empresas;
 namespace ApicativoRelatorio.Modulos
 {
     internal class ConexaoBanco
     {
-        private string connectionString;
+        public string connectionString;
 
         public ConexaoBanco() //procura o arquivo no computador, lê e atribui os valores do arquivo encontrado na string de conexão
         {
@@ -37,6 +38,38 @@ namespace ApicativoRelatorio.Modulos
             }
         }
 
+        //_______________________________EMPRESAS_____________________________________________
+        public void SalvarEmpresa(ClassEmpresas dados)
+        {
+            DateTime tempo = DateTime.UtcNow;
+            string sql = "INSERT INTO COMPANY" +
+                "(CompanyName, CorporationReason, CNPJ, Activite, Phone, CompanyCEP, PublicPlace, Neofhborhood, City, Estate, Country, Number,[Date], Active)" +
+                "VALUES(@Nome, @Razao, @CNPJ, @Atividade, @Phone, @CEP, @Logradouro, @Bairro, @Cidade, @Estado, @Pais, @Numero, @Data, 1)";
+            using (SqlConnection conexao = new SqlConnection(connectionString))
+            {
+                conexao.Open();
+                using(SqlCommand command = new SqlCommand(sql, conexao))
+                {
+                    command.Parameters.AddWithValue("@Nome", dados.Name);
+                    command.Parameters.AddWithValue("@Razao", dados.CorporationReason );
+                    command.Parameters.AddWithValue("@CNPJ",dados.CNPJ );
+                    command.Parameters.AddWithValue("@Atividade", dados.Activite);
+                    command.Parameters.AddWithValue("@Phone",dados.Phone );
+                    command.Parameters.AddWithValue("@CEP",dados.CEP);
+                    command.Parameters.AddWithValue("@Logradouro", dados.PublicPlace);
+                    command.Parameters.AddWithValue("@Bairro", dados.Neoghborhood);
+                    command.Parameters.AddWithValue("@Cidade", dados.City);
+                    command.Parameters.AddWithValue("@Estado",dados.Estate);
+                    command.Parameters.AddWithValue("@Pais", dados.Country);
+                    command.Parameters.AddWithValue("@Numero",dados.Number);
+                    command.Parameters.AddWithValue("@Data", tempo);
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
+
+
+        /*_________________________MAPA COMPUTADOR______________________________________
         public void SalvarMpComp(ClassComputador dados, DateTime criado)
         {
             string sql = " INSERT INTO PCMAPPING" +
@@ -48,45 +81,47 @@ namespace ApicativoRelatorio.Modulos
                 using (SqlCommand command = new SqlCommand(sql, conexao))
                 {
                     command.Parameters.AddWithValue("@Name", dados._name);
-                    command.Parameters.AddWithValue("@Login",dados._login);
-                    command.Parameters.AddWithValue("@Password",dados._password);
-                    command.Parameters.AddWithValue("@User",dados._user);
-                    command.Parameters.AddWithValue("@Sector",dados._sector);
-                    command.Parameters.AddWithValue("@System",dados._operationSystem);
+                    command.Parameters.AddWithValue("@Login", dados._login);
+                    command.Parameters.AddWithValue("@Password", dados._password);
+                    command.Parameters.AddWithValue("@User", dados._user);
+                    command.Parameters.AddWithValue("@Sector", dados._sector);
+                    command.Parameters.AddWithValue("@System", dados._operationSystem);
                     command.Parameters.AddWithValue("@IP", dados._ip);
                     command.Parameters.AddWithValue("@Mask", dados._mask);
-                    command.Parameters.AddWithValue("@Gateway",dados._gateway);
-                    command.Parameters.AddWithValue("@DNS",dados._dns1);
-                    command.Parameters.AddWithValue("DNS2",dados._dns2);
-                    command.Parameters.AddWithValue("@Proxy",dados._proxy);
-                    command.Parameters.AddWithValue("@Port",dados._port);
-                    command.Parameters.AddWithValue("@Domain",dados._domain);
-                    command.Parameters.AddWithValue("@AnyDesk",dados._anyDesk);
+                    command.Parameters.AddWithValue("@Gateway", dados._gateway);
+                    command.Parameters.AddWithValue("@DNS", dados._dns1);
+                    command.Parameters.AddWithValue("DNS2", dados._dns2);
+                    command.Parameters.AddWithValue("@Proxy", dados._proxy);
+                    command.Parameters.AddWithValue("@Port", dados._port);
+                    command.Parameters.AddWithValue("@Domain", dados._domain);
+                    command.Parameters.AddWithValue("@AnyDesk", dados._anyDesk);
                     command.Parameters.AddWithValue("@MAC", dados._mac);
                     command.Parameters.AddWithValue("@Platform", dados._type);
-                    command.Parameters.AddWithValue("@CPU",dados._cpu);
-                    command.Parameters.AddWithValue("@Socket",dados._socket);
-                    command.Parameters.AddWithValue("@Motherboard",dados._motherboard);
-                    command.Parameters.AddWithValue("@Memory",dados._memory);
-                    command.Parameters.AddWithValue("@DDR",dados._ddr);
-                    command.Parameters.AddWithValue("@Frequency",dados._frequency);
+                    command.Parameters.AddWithValue("@CPU", dados._cpu);
+                    command.Parameters.AddWithValue("@Socket", dados._socket);
+                    command.Parameters.AddWithValue("@Motherboard", dados._motherboard);
+                    command.Parameters.AddWithValue("@Memory", dados._memory);
+                    command.Parameters.AddWithValue("@DDR", dados._ddr);
+                    command.Parameters.AddWithValue("@Frequency", dados._frequency);
                     command.Parameters.AddWithValue("@Slots", dados._slots);
-                    command.Parameters.AddWithValue("@GPU",dados._gpu);
-                    command.Parameters.AddWithValue("@Disk",dados._disk);
+                    command.Parameters.AddWithValue("@GPU", dados._gpu);
+                    command.Parameters.AddWithValue("@Disk", dados._disk);
                     command.Parameters.AddWithValue("TypeDisk", dados._typedisk);
-                    command.Parameters.AddWithValue("@Used",dados._diskUsed);
-                    command.Parameters.AddWithValue("@Offboard1",dados._offboard1);
-                    command.Parameters.AddWithValue("@Offboard2",dados._offboard2);
-                    command.Parameters.AddWithValue("@registry",dados._register);
-                    command.Parameters.AddWithValue("@Observation",dados._observation);
-                    command.Parameters.AddWithValue("@Date",criado);
+                    command.Parameters.AddWithValue("@Used", dados._diskUsed);
+                    command.Parameters.AddWithValue("@Offboard1", dados._offboard1);
+                    command.Parameters.AddWithValue("@Offboard2", dados._offboard2);
+                    command.Parameters.AddWithValue("@registry", dados._register);
+                    command.Parameters.AddWithValue("@Observation", dados._observation);
+                    command.Parameters.AddWithValue("@Date", criado);
 
                     command.ExecuteNonQuery();
                 }
             }
 
         }
-        public string PegarId(int tela)
+        */
+        //____________________PEGA O ID E MANDA PARA OS FORMULARIOS______________________
+       /* public string PegarId(int tela)
         {
             string ID = string.Empty;
             string sql = string.Empty;
@@ -117,6 +152,6 @@ namespace ApicativoRelatorio.Modulos
             }
 
             return ID;
-        }
+        }*/
     }
 }

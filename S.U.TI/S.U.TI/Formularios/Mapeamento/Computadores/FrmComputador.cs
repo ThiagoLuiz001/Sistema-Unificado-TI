@@ -1,4 +1,5 @@
 ﻿using ApicativoRelatorio.Modulos;
+using S.U.TI.Modulos;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,10 +16,10 @@ namespace S.U.TI.Formularios.Mapeamento.Computadores
 {
     public partial class FrmComputador : Form
     {
-        ConexaoBanco conexao = new ConexaoBanco();
+        ConexaoMapaPc conexao = new ConexaoMapaPc();
         private async void PuxarId()
         {
-            int id = int.Parse(conexao.PegarId(0)) + 1;
+            int id = int.Parse(conexao.PegarId()) + 1;
             txtCodigo.Text = $"Pcm-{id}";
         }
         private void CadastrarDados()
@@ -118,7 +119,7 @@ namespace S.U.TI.Formularios.Mapeamento.Computadores
         }
         private void Enderecamento()
         {
-            txtCodigo.Text = conexao.PegarId(0);
+            txtCodigo.Text = conexao.PegarId();
         }
         private void Novo()
         {

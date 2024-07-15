@@ -48,44 +48,44 @@
             manutençãoToolStripMenuItem = new ToolStripMenuItem();
             programaçãoToolStripMenuItem = new ToolStripMenuItem();
             serviçosToolStripMenuItem = new ToolStripMenuItem();
-            statusStrip1 = new StatusStrip();
-            tslblJanela = new ToolStripStatusLabel();
-            toolStripProgressBar1 = new ToolStripProgressBar();
             módulosToolStripMenuItem = new ToolStripMenuItem();
             toolStripSeparator9 = new ToolStripSeparator();
             setoresToolStripMenuItem = new ToolStripMenuItem();
-            toolStripSeparator10 = new ToolStripSeparator();
-            sistemasOperacionaisToolStripMenuItem = new ToolStripMenuItem();
-            toolStripSeparator11 = new ToolStripSeparator();
-            empresasToolStripMenuItem = new ToolStripMenuItem();
-            toolStripSeparator12 = new ToolStripSeparator();
             toolStripSeparator13 = new ToolStripSeparator();
             cadastrarSetoresToolStripMenuItem = new ToolStripMenuItem();
             toolStripSeparator14 = new ToolStripSeparator();
             filtrarEAtualizarToolStripMenuItem = new ToolStripMenuItem();
             toolStripSeparator15 = new ToolStripSeparator();
+            toolStripSeparator10 = new ToolStripSeparator();
+            sistemasOperacionaisToolStripMenuItem = new ToolStripMenuItem();
             toolStripSeparator16 = new ToolStripSeparator();
             cadastrarSistemaOperacionalToolStripMenuItem = new ToolStripMenuItem();
             toolStripSeparator17 = new ToolStripSeparator();
             filtrarEAtualizarToolStripMenuItem1 = new ToolStripMenuItem();
+            toolStripSeparator11 = new ToolStripSeparator();
+            empresasToolStripMenuItem = new ToolStripMenuItem();
             toolStripSeparator18 = new ToolStripSeparator();
             cadastrarEmpresasToolStripMenuItem = new ToolStripMenuItem();
             toolStripSeparator19 = new ToolStripSeparator();
             filtrarEAtualizarToolStripMenuItem2 = new ToolStripMenuItem();
             toolStripSeparator20 = new ToolStripSeparator();
-            toolStripTextBox1 = new ToolStripTextBox();
-            toolStripComboBox1 = new ToolStripComboBox();
+            toolStripSeparator12 = new ToolStripSeparator();
+            statusStrip1 = new StatusStrip();
+            tslblJanela = new ToolStripStatusLabel();
+            toolStripProgressBar1 = new ToolStripProgressBar();
+            selecionarEmpresaToolStripMenuItem = new ToolStripMenuItem();
+            toolStripSeparator21 = new ToolStripSeparator();
             menuStrip1.SuspendLayout();
             statusStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { mapeamentoToolStripMenuItem, manutençãoToolStripMenuItem, programaçãoToolStripMenuItem, serviçosToolStripMenuItem, módulosToolStripMenuItem, toolStripTextBox1, toolStripComboBox1 });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { mapeamentoToolStripMenuItem, manutençãoToolStripMenuItem, programaçãoToolStripMenuItem, serviçosToolStripMenuItem, módulosToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.RenderMode = ToolStripRenderMode.Professional;
-            menuStrip1.Size = new Size(800, 27);
+            menuStrip1.Size = new Size(800, 24);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -112,7 +112,7 @@
             // toolStripSeparator6
             // 
             toolStripSeparator6.Name = "toolStripSeparator6";
-            toolStripSeparator6.Size = new Size(121, 6);
+            toolStripSeparator6.Size = new Size(177, 6);
             // 
             // pesquisarToolStripMenuItem
             // 
@@ -124,20 +124,20 @@
             // toolStripSeparator7
             // 
             toolStripSeparator7.Name = "toolStripSeparator7";
-            toolStripSeparator7.Size = new Size(121, 6);
+            toolStripSeparator7.Size = new Size(177, 6);
             // 
             // cadastrarToolStripMenuItem
             // 
             cadastrarToolStripMenuItem.Image = (Image)resources.GetObject("cadastrarToolStripMenuItem.Image");
             cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
-            cadastrarToolStripMenuItem.Size = new Size(124, 22);
+            cadastrarToolStripMenuItem.Size = new Size(180, 22);
             cadastrarToolStripMenuItem.Text = "&Cadastrar";
             cadastrarToolStripMenuItem.Click += cadastrarToolStripMenuItem_Click;
             // 
             // toolStripSeparator8
             // 
             toolStripSeparator8.Name = "toolStripSeparator8";
-            toolStripSeparator8.Size = new Size(121, 6);
+            toolStripSeparator8.Size = new Size(177, 6);
             // 
             // toolStripSeparator2
             // 
@@ -198,6 +198,132 @@
             serviçosToolStripMenuItem.Size = new Size(62, 20);
             serviçosToolStripMenuItem.Text = "&Serviços";
             // 
+            // módulosToolStripMenuItem
+            // 
+            módulosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { toolStripSeparator9, setoresToolStripMenuItem, toolStripSeparator10, sistemasOperacionaisToolStripMenuItem, toolStripSeparator11, empresasToolStripMenuItem, toolStripSeparator12 });
+            módulosToolStripMenuItem.Name = "módulosToolStripMenuItem";
+            módulosToolStripMenuItem.Size = new Size(83, 20);
+            módulosToolStripMenuItem.Text = "&Operacional";
+            // 
+            // toolStripSeparator9
+            // 
+            toolStripSeparator9.Name = "toolStripSeparator9";
+            toolStripSeparator9.Size = new Size(189, 6);
+            // 
+            // setoresToolStripMenuItem
+            // 
+            setoresToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { toolStripSeparator13, cadastrarSetoresToolStripMenuItem, toolStripSeparator14, filtrarEAtualizarToolStripMenuItem, toolStripSeparator15 });
+            setoresToolStripMenuItem.Name = "setoresToolStripMenuItem";
+            setoresToolStripMenuItem.Size = new Size(192, 22);
+            setoresToolStripMenuItem.Text = "&Setores";
+            // 
+            // toolStripSeparator13
+            // 
+            toolStripSeparator13.Name = "toolStripSeparator13";
+            toolStripSeparator13.Size = new Size(162, 6);
+            // 
+            // cadastrarSetoresToolStripMenuItem
+            // 
+            cadastrarSetoresToolStripMenuItem.Name = "cadastrarSetoresToolStripMenuItem";
+            cadastrarSetoresToolStripMenuItem.Size = new Size(165, 22);
+            cadastrarSetoresToolStripMenuItem.Text = "&Cadastrar Setores";
+            cadastrarSetoresToolStripMenuItem.Click += cadastrarSetoresToolStripMenuItem_Click;
+            // 
+            // toolStripSeparator14
+            // 
+            toolStripSeparator14.Name = "toolStripSeparator14";
+            toolStripSeparator14.Size = new Size(162, 6);
+            // 
+            // filtrarEAtualizarToolStripMenuItem
+            // 
+            filtrarEAtualizarToolStripMenuItem.Name = "filtrarEAtualizarToolStripMenuItem";
+            filtrarEAtualizarToolStripMenuItem.Size = new Size(165, 22);
+            filtrarEAtualizarToolStripMenuItem.Text = "&Filtrar e Atualizar";
+            // 
+            // toolStripSeparator15
+            // 
+            toolStripSeparator15.Name = "toolStripSeparator15";
+            toolStripSeparator15.Size = new Size(162, 6);
+            // 
+            // toolStripSeparator10
+            // 
+            toolStripSeparator10.Name = "toolStripSeparator10";
+            toolStripSeparator10.Size = new Size(189, 6);
+            // 
+            // sistemasOperacionaisToolStripMenuItem
+            // 
+            sistemasOperacionaisToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { toolStripSeparator16, cadastrarSistemaOperacionalToolStripMenuItem, toolStripSeparator17, filtrarEAtualizarToolStripMenuItem1 });
+            sistemasOperacionaisToolStripMenuItem.Name = "sistemasOperacionaisToolStripMenuItem";
+            sistemasOperacionaisToolStripMenuItem.Size = new Size(192, 22);
+            sistemasOperacionaisToolStripMenuItem.Text = "&Sistemas Operacionais";
+            // 
+            // toolStripSeparator16
+            // 
+            toolStripSeparator16.Name = "toolStripSeparator16";
+            toolStripSeparator16.Size = new Size(232, 6);
+            // 
+            // cadastrarSistemaOperacionalToolStripMenuItem
+            // 
+            cadastrarSistemaOperacionalToolStripMenuItem.Name = "cadastrarSistemaOperacionalToolStripMenuItem";
+            cadastrarSistemaOperacionalToolStripMenuItem.Size = new Size(235, 22);
+            cadastrarSistemaOperacionalToolStripMenuItem.Text = "&Cadastrar Sistema Operacional";
+            // 
+            // toolStripSeparator17
+            // 
+            toolStripSeparator17.Name = "toolStripSeparator17";
+            toolStripSeparator17.Size = new Size(232, 6);
+            // 
+            // filtrarEAtualizarToolStripMenuItem1
+            // 
+            filtrarEAtualizarToolStripMenuItem1.Name = "filtrarEAtualizarToolStripMenuItem1";
+            filtrarEAtualizarToolStripMenuItem1.Size = new Size(235, 22);
+            filtrarEAtualizarToolStripMenuItem1.Text = "&Filtrar e atualizar";
+            // 
+            // toolStripSeparator11
+            // 
+            toolStripSeparator11.Name = "toolStripSeparator11";
+            toolStripSeparator11.Size = new Size(189, 6);
+            // 
+            // empresasToolStripMenuItem
+            // 
+            empresasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { toolStripSeparator18, cadastrarEmpresasToolStripMenuItem, toolStripSeparator19, filtrarEAtualizarToolStripMenuItem2, toolStripSeparator20, selecionarEmpresaToolStripMenuItem, toolStripSeparator21 });
+            empresasToolStripMenuItem.Name = "empresasToolStripMenuItem";
+            empresasToolStripMenuItem.Size = new Size(192, 22);
+            empresasToolStripMenuItem.Text = "Empresas";
+            // 
+            // toolStripSeparator18
+            // 
+            toolStripSeparator18.Name = "toolStripSeparator18";
+            toolStripSeparator18.Size = new Size(177, 6);
+            // 
+            // cadastrarEmpresasToolStripMenuItem
+            // 
+            cadastrarEmpresasToolStripMenuItem.Name = "cadastrarEmpresasToolStripMenuItem";
+            cadastrarEmpresasToolStripMenuItem.Size = new Size(180, 22);
+            cadastrarEmpresasToolStripMenuItem.Text = "&Cadastrar Empresas";
+            cadastrarEmpresasToolStripMenuItem.Click += cadastrarEmpresasToolStripMenuItem_Click;
+            // 
+            // toolStripSeparator19
+            // 
+            toolStripSeparator19.Name = "toolStripSeparator19";
+            toolStripSeparator19.Size = new Size(177, 6);
+            // 
+            // filtrarEAtualizarToolStripMenuItem2
+            // 
+            filtrarEAtualizarToolStripMenuItem2.Name = "filtrarEAtualizarToolStripMenuItem2";
+            filtrarEAtualizarToolStripMenuItem2.Size = new Size(180, 22);
+            filtrarEAtualizarToolStripMenuItem2.Text = "&Filtrar e Atualizar";
+            // 
+            // toolStripSeparator20
+            // 
+            toolStripSeparator20.Name = "toolStripSeparator20";
+            toolStripSeparator20.Size = new Size(177, 6);
+            // 
+            // toolStripSeparator12
+            // 
+            toolStripSeparator12.Name = "toolStripSeparator12";
+            toolStripSeparator12.Size = new Size(189, 6);
+            // 
             // statusStrip1
             // 
             statusStrip1.Items.AddRange(new ToolStripItem[] { tslblJanela, toolStripProgressBar1 });
@@ -218,141 +344,16 @@
             toolStripProgressBar1.Name = "toolStripProgressBar1";
             toolStripProgressBar1.Size = new Size(100, 16);
             // 
-            // módulosToolStripMenuItem
+            // selecionarEmpresaToolStripMenuItem
             // 
-            módulosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { toolStripSeparator9, setoresToolStripMenuItem, toolStripSeparator10, sistemasOperacionaisToolStripMenuItem, toolStripSeparator11, empresasToolStripMenuItem, toolStripSeparator12 });
-            módulosToolStripMenuItem.Name = "módulosToolStripMenuItem";
-            módulosToolStripMenuItem.Size = new Size(83, 23);
-            módulosToolStripMenuItem.Text = "&Operacional";
+            selecionarEmpresaToolStripMenuItem.Name = "selecionarEmpresaToolStripMenuItem";
+            selecionarEmpresaToolStripMenuItem.Size = new Size(180, 22);
+            selecionarEmpresaToolStripMenuItem.Text = "&Selecionar Empresa";
             // 
-            // toolStripSeparator9
+            // toolStripSeparator21
             // 
-            toolStripSeparator9.Name = "toolStripSeparator9";
-            toolStripSeparator9.Size = new Size(177, 6);
-            // 
-            // setoresToolStripMenuItem
-            // 
-            setoresToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { toolStripSeparator13, cadastrarSetoresToolStripMenuItem, toolStripSeparator14, filtrarEAtualizarToolStripMenuItem, toolStripSeparator15 });
-            setoresToolStripMenuItem.Name = "setoresToolStripMenuItem";
-            setoresToolStripMenuItem.Size = new Size(192, 22);
-            setoresToolStripMenuItem.Text = "&Setores";
-            // 
-            // toolStripSeparator10
-            // 
-            toolStripSeparator10.Name = "toolStripSeparator10";
-            toolStripSeparator10.Size = new Size(189, 6);
-            // 
-            // sistemasOperacionaisToolStripMenuItem
-            // 
-            sistemasOperacionaisToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { toolStripSeparator16, cadastrarSistemaOperacionalToolStripMenuItem, toolStripSeparator17, filtrarEAtualizarToolStripMenuItem1 });
-            sistemasOperacionaisToolStripMenuItem.Name = "sistemasOperacionaisToolStripMenuItem";
-            sistemasOperacionaisToolStripMenuItem.Size = new Size(192, 22);
-            sistemasOperacionaisToolStripMenuItem.Text = "&Sistemas Operacionais";
-            // 
-            // toolStripSeparator11
-            // 
-            toolStripSeparator11.Name = "toolStripSeparator11";
-            toolStripSeparator11.Size = new Size(189, 6);
-            // 
-            // empresasToolStripMenuItem
-            // 
-            empresasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { toolStripSeparator18, cadastrarEmpresasToolStripMenuItem, toolStripSeparator19, filtrarEAtualizarToolStripMenuItem2, toolStripSeparator20 });
-            empresasToolStripMenuItem.Name = "empresasToolStripMenuItem";
-            empresasToolStripMenuItem.Size = new Size(192, 22);
-            empresasToolStripMenuItem.Text = "Empresas";
-            // 
-            // toolStripSeparator12
-            // 
-            toolStripSeparator12.Name = "toolStripSeparator12";
-            toolStripSeparator12.Size = new Size(189, 6);
-            // 
-            // toolStripSeparator13
-            // 
-            toolStripSeparator13.Name = "toolStripSeparator13";
-            toolStripSeparator13.Size = new Size(177, 6);
-            // 
-            // cadastrarSetoresToolStripMenuItem
-            // 
-            cadastrarSetoresToolStripMenuItem.Name = "cadastrarSetoresToolStripMenuItem";
-            cadastrarSetoresToolStripMenuItem.Size = new Size(180, 22);
-            cadastrarSetoresToolStripMenuItem.Text = "&Cadastrar Setores";
-            // 
-            // toolStripSeparator14
-            // 
-            toolStripSeparator14.Name = "toolStripSeparator14";
-            toolStripSeparator14.Size = new Size(177, 6);
-            // 
-            // filtrarEAtualizarToolStripMenuItem
-            // 
-            filtrarEAtualizarToolStripMenuItem.Name = "filtrarEAtualizarToolStripMenuItem";
-            filtrarEAtualizarToolStripMenuItem.Size = new Size(180, 22);
-            filtrarEAtualizarToolStripMenuItem.Text = "&Filtrar e Atualizar";
-            // 
-            // toolStripSeparator15
-            // 
-            toolStripSeparator15.Name = "toolStripSeparator15";
-            toolStripSeparator15.Size = new Size(177, 6);
-            // 
-            // toolStripSeparator16
-            // 
-            toolStripSeparator16.Name = "toolStripSeparator16";
-            toolStripSeparator16.Size = new Size(177, 6);
-            // 
-            // cadastrarSistemaOperacionalToolStripMenuItem
-            // 
-            cadastrarSistemaOperacionalToolStripMenuItem.Name = "cadastrarSistemaOperacionalToolStripMenuItem";
-            cadastrarSistemaOperacionalToolStripMenuItem.Size = new Size(235, 22);
-            cadastrarSistemaOperacionalToolStripMenuItem.Text = "&Cadastrar Sistema Operacional";
-            // 
-            // toolStripSeparator17
-            // 
-            toolStripSeparator17.Name = "toolStripSeparator17";
-            toolStripSeparator17.Size = new Size(232, 6);
-            // 
-            // filtrarEAtualizarToolStripMenuItem1
-            // 
-            filtrarEAtualizarToolStripMenuItem1.Name = "filtrarEAtualizarToolStripMenuItem1";
-            filtrarEAtualizarToolStripMenuItem1.Size = new Size(235, 22);
-            filtrarEAtualizarToolStripMenuItem1.Text = "&Filtrar e atualizar";
-            // 
-            // toolStripSeparator18
-            // 
-            toolStripSeparator18.Name = "toolStripSeparator18";
-            toolStripSeparator18.Size = new Size(177, 6);
-            // 
-            // cadastrarEmpresasToolStripMenuItem
-            // 
-            cadastrarEmpresasToolStripMenuItem.Name = "cadastrarEmpresasToolStripMenuItem";
-            cadastrarEmpresasToolStripMenuItem.Size = new Size(180, 22);
-            cadastrarEmpresasToolStripMenuItem.Text = "&Cadastrar Empresas";
-            // 
-            // toolStripSeparator19
-            // 
-            toolStripSeparator19.Name = "toolStripSeparator19";
-            toolStripSeparator19.Size = new Size(177, 6);
-            // 
-            // filtrarEAtualizarToolStripMenuItem2
-            // 
-            filtrarEAtualizarToolStripMenuItem2.Name = "filtrarEAtualizarToolStripMenuItem2";
-            filtrarEAtualizarToolStripMenuItem2.Size = new Size(180, 22);
-            filtrarEAtualizarToolStripMenuItem2.Text = "&Filtrar e Atualizar";
-            // 
-            // toolStripSeparator20
-            // 
-            toolStripSeparator20.Name = "toolStripSeparator20";
-            toolStripSeparator20.Size = new Size(177, 6);
-            // 
-            // toolStripTextBox1
-            // 
-            toolStripTextBox1.Name = "toolStripTextBox1";
-            toolStripTextBox1.Size = new Size(100, 23);
-            toolStripTextBox1.Text = "Escolha Empresa:";
-            toolStripTextBox1.TextBoxTextAlign = HorizontalAlignment.Right;
-            // 
-            // toolStripComboBox1
-            // 
-            toolStripComboBox1.Name = "toolStripComboBox1";
-            toolStripComboBox1.Size = new Size(121, 23);
+            toolStripSeparator21.Name = "toolStripSeparator21";
+            toolStripSeparator21.Size = new Size(177, 6);
             // 
             // FrmTela_Principal
             // 
@@ -420,7 +421,7 @@
         private ToolStripSeparator toolStripSeparator19;
         private ToolStripMenuItem filtrarEAtualizarToolStripMenuItem2;
         private ToolStripSeparator toolStripSeparator20;
-        private ToolStripTextBox toolStripTextBox1;
-        private ToolStripComboBox toolStripComboBox1;
+        private ToolStripMenuItem selecionarEmpresaToolStripMenuItem;
+        private ToolStripSeparator toolStripSeparator21;
     }
 }

@@ -11,7 +11,7 @@ PcId AS 'Pcm-' + CAST(Id AS NVARCHAR(MAX)),
 [Login] nvarchar(50), 
 [Password] nvarchar(50),
 [User] nvarchar(50),
-[Sector] nvarchar (50),
+DepartamentID int,
 [System] nvarchar (50),
 [IP] nvarchar(15),
 Mask nvarchar(15),
@@ -40,12 +40,34 @@ Offboard2 nvarchar (30),
 Registry nvarchar (50),
 Observation nvarchar(MAX),
 [Date] nvarchar(30),
+CompanyID int,
 Active bit
 )
-
+drop table PCMAPPING
 
 INSERT INTO PCMAPPING([Name], [Login], [Password], [User], Sector, [System], [IP], Mask, Gateway, DNS, DNS2, Proxy, [Port], Domain, AnyDesk, MAC, [Platform] , CPU, Socket, Motherboard, Memory, DDR, Frequency, Slots, GPU, [Disk] , TypeDisk, Used, Offboard1, Offboard2, Registry, Observation, [Date], Active)
 VALUES('tes', 'tes', 'tes', 'tes', 'tes' , 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 'tes', 1)
 
 
 Select * from PCMAPPING
+
+
+Create Table COMPANY(
+Id int primary key identity(1,1),
+CompanyName nvarchar(100) not null,
+CorporationReason nvarchar(100),
+CNPJ nvarchar(18) not null,
+Activite nvarchar(50) not null,
+Phone nvarchar(20),
+CompanyCEP nvarchar(9),
+PublicPlace nvarchar(30),
+Neoghborhood nvarchar(30),
+City nvarchar(20),
+Estate nvarchar(2),
+Country nvarchar(10),
+Number int,
+[Date] nvarchar(10),
+Active bit
+)
+
+drop table COMPANY

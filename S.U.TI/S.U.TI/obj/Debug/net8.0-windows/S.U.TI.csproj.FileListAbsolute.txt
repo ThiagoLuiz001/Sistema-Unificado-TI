@@ -54,3 +54,6 @@ C:\Aplicações com C#\Sistema Unificado de TI\S.U.TI\S.U.TI\bin\Debug\net8.0-wi
 C:\Aplicações com C#\Sistema Unificado de TI\S.U.TI\S.U.TI\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
 C:\Aplicações com C#\Sistema Unificado de TI\S.U.TI\S.U.TI\obj\Debug\net8.0-windows\S.U.TI.csproj.AssemblyReference.cache
 C:\Aplicações com C#\Sistema Unificado de TI\S.U.TI\S.U.TI\obj\Debug\net8.0-windows\S.U.TI.csproj.Up2Date
+C:\Aplicações com C#\Sistema Unificado de TI\S.U.TI\S.U.TI\obj\Debug\net8.0-windows\S.U.TI.Formularios.Operacional.Empresas.FrmEmpresa.resources
+C:\Aplicações com C#\Sistema Unificado de TI\S.U.TI\S.U.TI\obj\Debug\net8.0-windows\S.U.TI.Formularios.Operacional.Setores.FrmSetor.resources
+C:\Aplicações com C#\Sistema Unificado de TI\S.U.TI\S.U.TI\obj\Debug\net8.0-windows\S.U.TI.Formularios.Operacional.Sistemas.FrmSistemaOperacional.resources
