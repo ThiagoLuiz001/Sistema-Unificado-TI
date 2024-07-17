@@ -7,8 +7,7 @@
         public string? Login { get; set; }
         public string? Password { get; set; }
         public string? User { get; set; }
-        public Department? Department { get; set; }
-        public string? OperationalSystem { get; set; }
+        public Model.System? SystemOperational { get; set; }
         public string? Ip { get; set; }
         public string? Mask { get; set; }
         public string? Gateway { get; set; }
@@ -18,8 +17,6 @@
         public string? Port { get; set; }
         public string? Domain { get; set; }
         public string? AnyDesk { get; set; }
-        public string? MAC { get; set; }
-        public string? Notes { get; set; }
         public DateTime Date { get; set; } = DateTime.UtcNow;
         public Company? Company { get; set; }
 

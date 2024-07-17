@@ -6,6 +6,7 @@
         public uint Id { get; set; }
         public string? Name { get; set; }
         public string? CorporateReason { get; set; }
+        public string? Phone {  get; set; }
         public string? CNPJ {  get; set; }
         public string? Branch { get; set; }
     }

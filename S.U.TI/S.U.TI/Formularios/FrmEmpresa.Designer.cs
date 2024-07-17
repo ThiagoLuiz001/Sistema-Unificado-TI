@@ -32,6 +32,8 @@
             label10 = new Label();
             mskContato = new MaskedTextBox();
             groupBox2 = new GroupBox();
+            txtPais = new TextBox();
+            label12 = new Label();
             btnCadastrar = new Button();
             cbUF = new ComboBox();
             label11 = new Label();
@@ -54,8 +56,6 @@
             txtRazao = new TextBox();
             txtNome = new TextBox();
             label1 = new Label();
-            label12 = new Label();
-            txtPais = new TextBox();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             SuspendLayout();
@@ -122,6 +122,22 @@
             groupBox2.TabStop = false;
             groupBox2.Text = "Dados de Endereço:";
             // 
+            // txtPais
+            // 
+            txtPais.Location = new Point(6, 87);
+            txtPais.Name = "txtPais";
+            txtPais.Size = new Size(156, 23);
+            txtPais.TabIndex = 15;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(6, 69);
+            label12.Name = "label12";
+            label12.Size = new Size(31, 15);
+            label12.TabIndex = 14;
+            label12.Text = "País:";
+            // 
             // btnCadastrar
             // 
             btnCadastrar.Location = new Point(696, 71);
@@ -131,6 +147,7 @@
             btnCadastrar.Text = "&Cadastrar";
             btnCadastrar.TextAlign = ContentAlignment.MiddleRight;
             btnCadastrar.UseVisualStyleBackColor = true;
+            btnCadastrar.Click += btnCadastrar_Click;
             // 
             // cbUF
             // 
@@ -303,22 +320,6 @@
             label1.Size = new Size(107, 15);
             label1.TabIndex = 0;
             label1.Text = "Nome da Empresa:";
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Location = new Point(6, 69);
-            label12.Name = "label12";
-            label12.Size = new Size(31, 15);
-            label12.TabIndex = 14;
-            label12.Text = "País:";
-            // 
-            // txtPais
-            // 
-            txtPais.Location = new Point(6, 87);
-            txtPais.Name = "txtPais";
-            txtPais.Size = new Size(156, 23);
-            txtPais.TabIndex = 15;
             // 
             // FrmEmpresa
             // 
